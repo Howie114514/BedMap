@@ -2,14 +2,14 @@
 
 #include "ll/api/mod/NativeMod.h"
 
-namespace my_mod {
+namespace bed_map {
 
-class MyMod {
+class BedMap {
 
 public:
-    static MyMod& getInstance();
+    static BedMap& getInstance();
 
-    MyMod() : mSelf(*ll::mod::NativeMod::current()) {}
+    BedMap() : mSelf(*ll::mod::NativeMod::current()) {}
 
     [[nodiscard]] ll::mod::NativeMod& getSelf() const { return mSelf; }
 
@@ -30,4 +30,4 @@ private:
     ll::mod::NativeMod& mSelf;
 };
 
-} // namespace my_mod
+} // namespace bed_map
