@@ -1,26 +1,14 @@
-# LeviLamina Mod Template
+# BedMap
 
-Mod Template for LeviLamina
+![Build status](https://img.shields.io/github/actions/workflow/status/Howie114514/BedMap/build.yml)
+![Stars](https://img.shields.io/github/stars/Howie114514/BedMap?style=flat)
 
-## Usage
+A map mod based on Levilamina for Minecraft: Bedrock Edition
 
-For detailed instructions, see the [LeviLamina Documentation](https://lamina.levimc.org/developer_guides/tutorials/create_your_first_mod/)
+[简体中文](./README.zh_CN.md)
 
-1. Generate a new repository from this template
-2. Clone the new repository
-3. Change the mod name and the expected LeviLamina version in `xmake.lua`
-4. Add your code.
-5. Run `xmake f -y -p windows -a x64 -m release` in the root of the repository
-6. Run `xmake` to build the mod.
+# Features
 
-After a successful build, you will find mod in `bin/`
-
-## Contributing
-
-Ask questions by creating an issue.
-
-PRs accepted.
-
-## License
-
-CC0-1.0 © LeviMC(LiteLDev)
+- [ ] Map and its UI
+- [ ] Waypoints
+- [ ] Exporting aerial view
