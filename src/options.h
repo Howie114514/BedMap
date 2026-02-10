@@ -18,7 +18,6 @@ struct Options {
     bool showNetherWaypointsInOverworld = true;
     bool showStructures                 = true;
     bool showChunks                     = true;
-    bool showSlimeChunks                = true;
 
     bool changeCenterPosWhenOpen   = true;
     bool changeCaveMapTopYWhenOpen = true;
@@ -32,3 +31,7 @@ struct Options {
     MapTypes                 mapType     = MapTypes::Default;
     std::vector<std::string> excluded;
 };
+
+namespace bed_map {
+static Options options;
+}
